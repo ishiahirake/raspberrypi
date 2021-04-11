@@ -19,6 +19,8 @@ def demonstrate(light: RGBLED):
     # 使用 color 设置颜色
     light.color = (0, 1, 0)
     wait()
+    light.color = (0, 0, 1)
+    wait()
 
     light.color = (1, 0, 1)
     wait()
