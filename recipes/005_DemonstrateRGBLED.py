@@ -48,7 +48,6 @@ def demonstrate_rgb_led(red: int, green: int, blue: int):
 
     RGB LED 可以精细的控制各个颜色的值(0~1),
     理论上通过组合 RGB 可以显示很多种颜色, 但实际的显示效果可能不会那么理想.
-    (如: (1, 1, 1) 理论上应该显示白色, 但实际上看到的是淡绿色)
 
     Args:
         red (int): RGB LED 红色所接的管脚.
